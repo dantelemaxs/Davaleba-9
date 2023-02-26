@@ -1,0 +1,294 @@
+.container{
+    max-width: 1300px;
+    padding: 40px 100px;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px 0px;
+    border-bottom: 1px solid black;
+    padding: 30px 80px;
+}
+.logo{
+    cursor:pointer;
+}
+.navigation{
+display: flex;
+text-decoration: none;
+font-size: 22px;
+gap: 41px;
+margin-left: 150px;
+}
+.navigation li{
+text-decoration: none;
+justify-content: space-between;
+}
+.navigation a{
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+.nav-icons {
+    display: flex;
+    gap:37px ;
+ 
+}
+.nav-icons img{
+    width: 30px;
+    height: 30px;
+}
+.main-plane{
+display: flex;
+margin-left: 100px;
+}
+.image{
+position: absolute;
+top: 2px;
+}
+.text-div{
+margin-top: 144px;
+margin-left: 600px;
+}
+.text-div h1{
+font-size: 44px;
+font-weight: 700;
+width: 472px;
+line-height: 59px;
+}
+.text-div p{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    width: 418px;
+    line-height: 30px;
+}
+.text-div button{
+    margin-top: 50px;
+    width: 196px;
+    height: 50px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    background: rgba(1, 96, 27, 1);
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.social-media{
+display: flex;
+flex-direction:column;
+gap: 15px;
+margin-left: 190px;
+margin-top: 400px;
+cursor: pointer;
+}
+.header-2{
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 36px;
+font-weight: 600;
+}
+.product-area{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr ;
+grid-gap: 70px;
+}
+.product{
+display: flex;
+flex-direction: column;
+width: 368px;
+height: 300px;
+border-radius: 10px;
+position: relative;
+}
+.product img{
+    position: relative;
+    width: 368px;
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+}
+.product-footer{
+display: flex;
+justify-content: space-between;
+color:  rgba(255, 255, 255, 1);
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 19px;
+background-color:  rgba(54, 121, 79, 0.55);
+padding: 3px 23px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+opacity: 1;
+}
+.buy-button{
+    position:absolute;
+    top: 197px;
+    left: 76px;
+    font-size: 19px;
+    color: rgba(15, 104, 69, 1);
+    background: rgba(255, 255, 255, 1);
+    width: 216px;
+    height: 50px;
+    border-radius: 10px; 
+    cursor: pointer;
+    opacity:0;
+} 
+.product:hover img{
+opacity: 0.8;
+}
+.product:hover .buy-button{
+opacity: 1;
+}
+.product:hover .product-footer{
+    background-color:  rgba(54, 121, 79, 1);
+}
+.see-more{
+font-family: 'Helvetica Neue', sans-serif;
+color:rgba(1, 96, 27, 1);
+font-size: 18px;
+font-weight: 500;
+float: right;
+margin-right: 222px;
+text-decoration:underline;
+cursor: pointer;
+}
+.plants-care{
+display: flex;
+gap: 50px;
+}
+.plantinfo1{
+    display: flex;
+    flex-direction: column;
+    width: 638px;
+}
+.plants-care h3{
+ font-family: 'Helvetica Neue', sans-serif;
+font-weight: 600;
+ line-height: 30px;
+font-size: 24px;
+padding-top: 20px;
+}
+.plants-care p{
+    font-family: 'Helvetica Neue', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   padding-top: 10px;
+   letter-spacing: 3%;
+   line-height: 20px;
+}
+.plantaccesrroeis{
+    padding-top: 151px;
+display: flex;
+}
+.accessorizeright h4{
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 600;
+    font-size: 38px;
+    margin-left: 100px;
+    padding-bottom: 90px;
+}
+.accesorie-simg-div{
+position: relative;
+}
+.accsesorriestext-div{
+    position: absolute;
+    right:  270px;
+    width: 744px;
+    height: 389px;
+    background: rgba(236, 241, 238, 1);
+padding-top: 90px;
+border-radius: 16px;
+}
+.accsesorriestext-div p{
+font-family: 'Helvetica Neue', sans-serif;
+margin-left: 108px;
+max-width: 511px;
+font-size: 20px;
+line-height: 29px;
+}
+.accsesorriestext-div p:nth-child(2){
+    padding-top: 20px;
+}
+footer{
+ background-color: rgba(37, 83, 56, 1);  
+}
+.main-footer{
+    background-color: rgba(37, 83, 56, 1);
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.footer-leftarea{
+padding-left: 70px;
+}
+.footer-leftarea p{
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 18px;
+line-height: 22px;
+padding-top: 80px;
+}
+.footer-leftarea input{
+    margin-top: 21px;
+    width: 307px;
+    height: 50px;
+    background-color: inherit;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: white;
+    font-size: 18px;
+ }
+.footer-leftarea ::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+.footer-icon{
+margin-top: 53px;
+width: 200px;
+display: flex;
+justify-content: space-between;
+
+}
+.footer-rightarea{
+display: flex;
+justify-content: space-around;
+gap: 83px;
+padding-right: 44px;
+}
+.footer-rightarea h6{
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 22px;
+padding-bottom: 10px;
+}
+.footer-rightarea li{
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 18px;
+line-height: 22px;
+padding-top: 6px;
+}
+.footer-buttom{
+    margin-top: 33px;
+width: 100%;
+border-top: 1px solid rgba(255, 255, 255, 1);
+}
+.footer-buttom ul{
+display: flex;
+justify-content: end;
+margin-right: 61px;
+margin-top: 21px;
+
+}
+.footer-buttom li{
+    cursor: pointer;
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 18px;
+line-height: 21px;
+color: rgb(255, 255, 255, 1 );
+padding-left: 20px;
+margin-bottom: 11px;
+}
